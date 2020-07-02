@@ -68,3 +68,7 @@ main{
 
 /* footer */
 /* /footer */
+footer{
+  height: 150px;
+  background-color: #D3D3D3;
+}
