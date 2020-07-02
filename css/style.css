@@ -118,10 +118,17 @@ main{
   height: 1200px;
 }
 
+/* prima parte centro pagina */
 .title{
-  height: 100px;
+  width: 100%;
   background-color: #D3D3D3;
   text-align: center;
+  padding: 50px;
+  line-height: 35px;
+}
+
+.title h3{
+  font-size: 24px;
 }
 
 .title p{
@@ -163,20 +170,32 @@ main{
   border-bottom: 1px solid black;
 }
 
-.first-section img{
-  height: 50%;
-  width: 50%;
-  padding: 30px;
+.first-column img{
+  height: 200px;
+  width: 150px;
 }
 
+.second-column img{
+  height: 300px;
+  width: 250px;
+}
+
+.third-column img{
+  height: 200px;
+  width: 150px;
+}
+/* /prima parte centro pagina */
+
+
+/* seconda parte centro pagina */
 .second-section{
   height: 50%;
-  text-align: center;
 }
 
 .second-section img{
-  height: 50%;
-  width: 50%;
+  height: 600px;
+  width: 600px;
+  margin: auto;
 }
 
 .second-section .column1{
@@ -185,15 +204,106 @@ main{
 }
 
 .second-section .column2{
-float: right;
-width: 50%;
+  float: right;
+  width: 50%;
 }
 
+.column2{
+  text-align: left;
+  padding: 70px 200px 0 0;
+}
+
+.column2 h3{
+  font-size: 35px;
+}
+
+.column2 p{
+  color: #808080;
+  font-size: 22px;
+}
+
+.column2 a{
+  font-size: 16px;
+  line-height: 70px;
+}
+/* /seconda parte centro pagina */
 /* /main */
 
 /* footer */
-/* /footer */
 footer{
   height: 150px;
   background-color: #D3D3D3;
 }
+
+.colonna1f{
+  float: left;
+  width: 50%;
+}
+
+.colonna2f{
+  float: right;
+  width: 50%;
+}
+
+footer::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.colonna1f p{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 150px;
+}
+
+.column1footer{
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 150px;
+  color: #818181;
+}
+
+.column1footer span{
+  padding-right: 20px;
+}
+
+.column2footer{
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.colonna2f{
+  line-height: 150px;
+  text-align: center;
+}
+
+.column2footer button{
+  border-radius: 5px;
+  border: none;
+  background-color: #7CBB02;
+  padding: 20px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  display:block;
+  margin-bottom: 10px;
+}
+
+.colonna2f::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+select.seleziona{
+  border: none;
+  background-color: #D3D3D3;
+  border-bottom: 1px solid #818181;
+  color: #818181;
+  width: 130px;
+}
+/* /footer */
