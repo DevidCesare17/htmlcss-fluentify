@@ -20,7 +20,8 @@ header{
   height: 500px;
   background-color: #0C325A;
   background-image: url(../img/background-header.png);
-  background-position: right;
+  background-position-x: right;
+  background-position-y: bottom;
   background-size: 55%;
   background-repeat: no-repeat;
 }
@@ -123,7 +124,7 @@ main{
   width: 100%;
   background-color: #D3D3D3;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   line-height: 35px;
 }
 
@@ -137,8 +138,9 @@ main{
 
 .first-section{
   height: 50%;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #D3D3D3;
   text-align: center;
+  padding: 50px;
 }
 
 .first-section .first-column{
@@ -166,23 +168,31 @@ main{
 }
 
 .first-section h3{
+  margin-top: 15px;
   color: #7CBB02;
-  border-bottom: 1px solid black;
 }
 
 .first-column img{
-  height: 200px;
   width: 150px;
 }
 
 .second-column img{
-  height: 300px;
   width: 250px;
 }
 
 .third-column img{
-  height: 200px;
   width: 150px;
+}
+
+.first-section hr{
+  color: #D3D3D3;
+  margin: 20px 110px;
+  width: 80px;
+}
+
+.first-section p{
+  color: #808080;
+  font-size: 14px;
 }
 /* /prima parte centro pagina */
 
@@ -193,9 +203,8 @@ main{
 }
 
 .second-section img{
-  height: 600px;
   width: 600px;
-  margin: auto;
+  padding: 50px;
 }
 
 .second-section .column1{
